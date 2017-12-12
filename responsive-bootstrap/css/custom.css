@@ -1,0 +1,13 @@
+body {
+   background-color: #e2e2e2;
+}
+
+img {
+  margin:1rem 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #007aeb;
+  margin:1rem 0;
+}
