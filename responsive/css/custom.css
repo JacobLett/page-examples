@@ -9,10 +9,9 @@ R E S E T
 
 /*
 ####################################################
-B A S E  S T Y L E S
+B A S E
 ####################################################
 */
-
 
 body {
    font-family: sans-serif;
@@ -24,6 +23,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.intro {
+  font-size: 1.3rem;
+}
+
+/*
+####################################################
+G R I D
+####################################################
+*/
+
+
 
 
 .container {
@@ -38,9 +49,6 @@ img {
 }
 
 
-
-
-
 .col {
   max-width: 100%;
 }
@@ -51,6 +59,7 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    padding:.5rem;
   }
 
   .col {
@@ -87,13 +96,57 @@ header {
 .brand {
     padding:.5rem;
 }
-.nav-main a {
-  color:#fff;
+
+
+nav a {
   display: block;
   padding:.5rem;
   text-decoration: none;
 }
+
+.nav-main a {
+  color:#fff;
+}
 .nav-main ul {
   list-style-type: none;
   padding:0;
+}
+
+.nav-main .active {
+  font-weight:bold;
+}
+
+.nav-secondary ul {
+  padding:1rem;
+  background-color:#e2e2e2;
+list-style-type: none;
+}
+
+/*
+####################################################
+F O O T E R
+####################################################
+*/
+
+footer {
+  background-color:#e2e2e2;
+  padding:.5rem;
+}
+
+
+/*
+####################################################
+B U T T O N S
+####################################################
+*/
+
+.button {
+  background-color:rgba(0, 123, 255, 1);
+  padding:.5rem 1rem;
+  display: inline-block;
+  color:#fff;
+  text-decoration: none;
+}
+.button:hover {
+    background-color:rgba(0, 123, 255, .8);
 }
