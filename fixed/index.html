@@ -1,61 +1,137 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Fixed Page Example</title>
+    <title>Responsive</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/custom.css">
 
 
   </head>
   <body>
 
-    <div class="container">
+
 
       <header>
-        <nav class="nav-main">
-          <ul>
-            <li class="brand"><strong>PageExamples</strong></li>
-            <li class="active"><a href="../fixed/">Fixed</a></li>
-            <li><a href="../responsive/">Responsive</a></li>
-            <li><a href="../bootstrap/">Bootstrap CDN</a></li>
-            <li><a href="../bootstrap-sass/">Bootstrap Sass</a></li>
-          </ul>
-        </nav>
+        <div class="container">
+          <nav class="nav-main">
+            <div class="brand"><strong>PageExamples</strong></div>
+            <ul>
+              <li class="active"><a href="../fixed/">Fixed Width</a></li>
+              <li><a href="../responsive/">Responsive</a></li>
+              <li><a href="../bootstrap/">Bootstrap CDN</a></li>
+              <li><a href="../bootstrap-sass/">Bootstrap Sass</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
 
 
+<div class="container">
 
-     <img src="https://dummyimage.com/1000x400/000/fff" alt="">
+
+
+      <div class="owl-carousel owl-theme">
+          <img src="https://dummyimage.com/1400x400/000/fff" alt="">
+          <img src="https://dummyimage.com/1400x400/888/fff" alt="">
+          <img src="https://dummyimage.com/1400x400/555/fff" alt="">
+      </div>
+
+
+
+
 
 <div class="row">
-  <div class="col">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias quaerat, iure voluptatum nemo incidunt culpa corrupti expedita, eligendi tempore et magni consequatur cumque fugit maxime eaque. Saepe, similique omnis?</p>
+  <div class="col col-3">
+    <nav class="nav-secondary">
+      <ul>
+        <li><strong>PageExamples</strong></li>
+        <li><a href="../fixed/">Fixed Width</a></li>
+        <li class="active"><a href="../responsive/">Responsive</a></li>
+        <li><a href="../bootstrap/">Bootstrap CDN</a></li>
+        <li><a href="../bootstrap-sass/">Bootstrap Sass</a></li>
+      </ul>
+    </nav>
 
   </div>
   <!-- /.col -->
-  <div class="col">
-    <ul>
-       <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias quaerat</li>
-       <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias quaerat</li>
-       <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias quaerat</li>
-       <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint molestias quaerat</li>
-    </ul>
+  <div class="col col-7">
+
+<p class="intro">This project demonstrates the typical code you would need to build a <strong>fixed width</strong> website without a frontend framework like <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+
+
+
+
+    <div class="row">
+      <div class="col">
+        <h4>Pros</h4>
+        <ul>
+          <li>
+            Less time spent testing different browser widths
+          </li>
+          <li>
+            Control of how everything works and looks
+          </li>
+        </ul>
+        <a href="" class="button">Button</a>
+      </div>
+      <!-- /.col -->
+      <div class="col">
+        <h4>Cons</h4>
+        <ul>
+          <li>
+            Requires more advanced knowledge of CSS and browser support of CSS3 properties
+          </li>
+          <li>
+            Takes a lot more time to customize because everything needs to be written and tested from scratch
+          </li>
+          <li>
+            No viewable documentation of basic components for team members. Or if you revisit the project after 6 months you don't have to recall your thought process.
+          </li>
+          <li>
+            Bad user experience
+          </li>
+          <li>
+            Poor search engine optimization because Google will soon move to a <a href="https://webmasters.googleblog.com/2016/11/mobile-first-indexing.html">mobile first index</a>
+          </li>
+        </ul>
+        <a href="" class="button">Button</a>
+
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+
+
   </div>
   <!-- /.col -->
 </div>
 <!-- /.row -->
 
+</div>
+<!-- /.container -->
+
 <footer>
-  Created by <a href="http://bootstrapcreative.com/">BootstrapCreative</a>
+  <div class="container">
+    Created by <a href="http://bootstrapcreative.com/">BootstrapCreative</a> | <a href="https://github.com/JacobLett/page-examples">Fork on GitHub</a>
+  </div>
+  <!-- /.container -->
 </footer>
 
-   </div>
-   <!-- /.container -->
 
-     <script src="js/custom.js"></script>
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
 
 
   </body>

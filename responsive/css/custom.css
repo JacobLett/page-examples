@@ -28,6 +28,13 @@ img {
   font-size: 1.3rem;
 }
 
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Alfa Slab One', cursive;
+  color: #007aeb;
+  margin:1rem 0;
+}
+
 /*
 ####################################################
 G R I D
